@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Enums\Enums.cs" />
+    <Compile Include="Entity\Position.cs" />
+    <Compile Include="Entity\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entity\Trade.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
